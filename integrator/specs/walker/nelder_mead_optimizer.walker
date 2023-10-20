@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<storage>
+    <boxes>
+      <box name="Метод Nelder Mead" text_id="universal_optimizer" description="Оптимизатор 63" standalone="false">
+            <type> 
+			    <item name="Скрипт" id="Script"/>
+			    <item name="Оптимизатор" id="Optimizer"/>
+			</type>
+            <properties>
+                <property id="auto_pins_configuration" value="1_in 3_out" hidden="true"/>
+                <property id="type" hidden="true" value="optim63" tags="label" type="string_tag"/>
+                <property id="method" hidden="true" value="NelderMead" tags="label" type="string_tag"/>
+				<property name="Путь к оптимизатору" id="adapter_path" value="" tags="string" type="string"/>
+				<property name="Количество целевых функций" id="count_crit" value="1" tags="int" type="int"/>
+				<property name="Количество ограничений" id="count_lim" value="0" tags="int" type="int"/>
+				<property name="Метод сэмплирования начальных точек" id="sampling_method" type="selector" tags="selector_string [{'latin':'latin'}, {'halton':'halton'}, {'sobol':'sobol'}, {'plastic':'plastic'}]"/>
+				<property name="Точность значений варьируемых параметров" id="accuracy_x" value="0.01" tags="double" type="double"/>
+				<property name="Точность решения в процентах" id="accuracy_y" value="0.01" tags="double" type="double"/>
+                <property name="Максимальное количество шагов" id="max_count" value="100" tags="int" type="int"/>
+				<property name="Максимальное количество неоптимальных шагов" id="count_ineff" value="20" tags="int" type="int"/>
+				<property name="Начальный симплекс" id="simplex" value="" tags="string" type="string"/>
+                <property name="Название туннеля" id="tunnel_name" value="" tags="string" type="string"/>
+                <property name="Задержка" id="delay" value="3.0" tags="double" type="double"/>
+            </properties>
+      </box>
+    </boxes>
+</storage>

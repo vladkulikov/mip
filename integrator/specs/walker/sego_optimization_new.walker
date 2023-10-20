@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<storage>
+    <boxes>
+        <box name="SEGO/SEGOVAE" text_id="sego_optimization_new" description="Оптимизатор Super Efficient Global Optimization" standalone="false">
+            <type>
+                <item name="Скрипт" id="Script"/>
+                <item name="Оптимизатор" id="Optimizer"/>
+            </type>
+            <properties>
+                <property id="auto_pins_configuration" value="1_in 3_out" hidden="true"/>
+                <property id="optimization_module" hidden="true" value="true" type="bool" description="Данный модуль используется в расчетных схемах оптимизационных задач"/>
+				<property name="Путь к оптимизатору" id="adapter_path" value="" tags="string" type="string"/>
+                <property name="Метод оптимизации" id="method" type="selector" tags="selector_string [{'SEGO':'SEGO'}, {'SEGOVAE':'SEGOVAE'}]"/>
+                <property name="Целевые функции" id="y_values" type="label" tags="table {'columns': [{'Название':'string'}, {'Критерий': {'type':'selector_string', 'items':[{'Минимум':'min'}, {'Максимум':'max'}] }}, {'Значимость': 'double'}]}"/>
+                <property name="Ограничения" id="constraints" type="label" tags="table {'columns': [{'Название':'string'}, {'Нижний предел': 'string'}, {'Верхний предел': 'string'}]}"/>
+				<property name="Метод локальной оптимизации" id="method_local" type="selector" tags="selector_string [{'SLSQP':'SLSQP'}, {'COBYLA':'COBYLA'}, {'trust-constr':'trust-constr'}]"/>
+                <property name="Метод сэмплирования начальных точек" id="sampling_method" type="selector" tags="selector_string [{'latin':'latin'}, {'halton':'halton'}, {'sobol':'sobol'}, {'plastic':'plastic'}]"/>
+                <property name="Начальное число расчетных точек" id="n_sampling" value="10" tags="int" type="int"/>
+				<property name="Точность значений варьируемых параметров" id="accuracy_x" value="0.01" tags="double" type="double"/>
+				<property name="Точность решения в процентах" id="accuracy_y" value="1" tags="int" type="int"/>
+                <property name="Количество попыток запуска оптимизатора" id="attempt" value="10" tags="internal" type="int"/>
+				<property name="Максимальное количество неоптимальных шагов" id="count_ineff" value="10" tags="int" type="int"/>
+				<property name="Максимальное количество кластеров" id="max_count_clusters" value="5" tags="int" type="int"/>
+				<property name="Минимальное расстояние между точками" id="min_distance_between_points" value="0.01" tags="double" type="double"/>
+				<property name="Тип критерия оптимизации" id="criterion" type="selector" tags="selector_string [{'LCB':'LCB'}, {'WB2':'WB2'}, {'EI':'EI'}, {'SB0':'SB0'}]"/>
+            </properties>
+        </box>
+    </boxes>
+</storage>

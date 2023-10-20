@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<storage>
+    <boxes>
+        <box name="Суррогатная модель на основе криггинга" text_id="surrogate_model" description="Суррогатная модель на основе криггинга" standalone="false">
+            <type>
+                <item name="Скрипт" id="Script"/>
+                <item name="Суррогатная модель" id="Surrogate"/>
+            </type>
+            <properties>
+                <property id="auto_pins_configuration" value="1_in 3_out" hidden="true"/>
+                <property id="method" hidden="true" value="KrigingSampler" tags="label" type="string_tag"/>
+                <property name="Переменные" id="x_values" auto_reset_to_default="false" type="label" tags="y_value_names" description="Переменные"/>
+                <property name="Функции" id="y_values" auto_reset_to_default="false" type="label" tags="y_value_names" description="Функции"/>
+                <property name="Начальное количество расчетных точек" id="start_points" value="10" tags="internal" type="int"/>
+                <property name="Способ задания начальных точек" id="sampling_method" value="latin" tags="label" type="string_tag"/>
+                <property name="Количество запрашиваемых для уточнения точек" id="request_points" value="10" tags="internal" type="int"/>
+                <property name="Количество узлов сетки" id="grid_nodes" value="1000" tags="internal" type="int"/>					
+                <property name="Количество попыток запуска оптимизатора" id="attempt" value="100" tags="internal" type="int"/>
+                <property name="Минимальное расстояние между запрашиваемыми точками" id="min_distance" value="0.01" tags="internal" type="double"/>	
+                <property name="Значимость равномерности распределения" id="sparsity_weight" value="1.0" tags="internal" type="double" description="[0; 5]"/>
+                <property name="Значимость расстояния от выбираемой точки до базовых и уже отобранных" id="distanceX_weight" value="1.0" tags="internal" type="double" description="[0; 5]"/>		
+                <property name="Значимость расхождения предсказаний" id="deltaF_weight" value="1.0" tags="internal" type="double" description="[0; 5]"/>			
+                <property name="Минимальная дисперсия" id="min_error" value="0.001" tags="internal" type="double"/>
+                <property name="Способ сохранения суррогатной модели" id="surrogate_type" type="selector" tags="selector_string [{'Kriging':'krg_sklearn'}, {'RBF':'rbf'}, {'IDW':'idw'}]"/>
+            </properties>
+        </box>
+    </boxes>
+</storage>

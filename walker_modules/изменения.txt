@@ -1,0 +1,13 @@
+C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\LOGOS-MIP\walker_modules\surrogate_model - добавлена обработка типа сохрангяемой суррогатной модели в создаваемый конфиг, убран 4 аргумекнт командной строки
+C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\LOGOS-MIP\integrator\specs\walker\kriging - Обработка типа сохраняемой суррогатной модели
+table-helper исправлено     def _table_to_tuple(self, row):
+	
+        df = self._table_to_pandas()
+        if row == -1:
+            return tuple(df.tail(1))
+        else:
+            return tuple(df.loc[row])
+
+basinhopping.walker убрано количество начальных точек
+
+C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\LOGOS-MIP\walker_modules\universal_optimizer\optim63\wrapper добавлена проверка существования процесса оптимизатора по Pid
