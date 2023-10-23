@@ -1,0 +1,15 @@
+1) LOGOS-MIP\walker_modules\surrogate_model - добавлена обработка типа сохраняемой суррогатной модели в создаваемый конфиг, убран 4 аргумент командной строки
+2) LOGOS-MIP\integrator\specs\walker\kriging.walker - Обработка типа сохраняемой суррогатной модели
+3) LOGOS-MIP\walker_modules\table_helper\table_helper падало на функции def _table_to_tuple(self, row)
+Изменили в такой вариант:
+	
+        df = self._table_to_pandas()
+        if row == -1:
+            return tuple(df.tail(1))
+        else:
+            return tuple(df.loc[row])
+
+4) LOGOS-MIP\integrator\specs\walker\basinhopping.walker убрано количество начальных точек
+5) LOGOS-MIP\walker_modules\universal_optimizer\optim63\wrapper запись в файл родительского и дочернего pid при вызове процесса оптимизатора, добавлена проверка существования процесса оптимизатора по Pid(функция check_opt)
+6) LOGOS-MIP\integrator\specs\walker\inverse_problem.walker разработан блок решения обратной задачи (восстановления параметров)
+7) LOGOS-MIP\walker_modules\inverse_problem добавлены скрипты вызовов и обертки для обратной задачи по аналогии с обычными оптимизаторами
