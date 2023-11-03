@@ -61,7 +61,7 @@ class CurrentVariants:
         self.reverse_pipe = PipeMaker(self.tunnel_name, 'reverse')
 
         self.x_values = self.get_x_values(config['x_ranges'])
-        self.y_values = self.get_y_values(options['count_crit'], options['count_lim'])
+        self.y_values = self.get_y_values(options['count_crit'], 0)
 
     # Получение строк от оптимизатора
     def receive(self):

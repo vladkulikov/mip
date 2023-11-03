@@ -54,7 +54,7 @@ class CurrentVariants:
         self.adapter_path = options['adapter_path']
 
         self.x_values = self.get_x_values(config['x_ranges'])
-        self.y_values = self.get_y_values(options['count_crit'], options['count_lim'])
+        self.y_values = self.get_y_values(options['count_crit'], 0)
 
         self.max_count = options['max_count']
 
@@ -250,8 +250,6 @@ class CurrentVariants:
             os.path.join(self.adapter_path, 'main_optimization.py'),
             os.path.join(os.getcwd(), self.cfg_file_name)
         )
-        with open("test.txt", 'a') as file:
-            file.write(command)
         proc = subprocess.Popen(
             command,
             creationflags=subprocess.CREATE_NO_WINDOW,

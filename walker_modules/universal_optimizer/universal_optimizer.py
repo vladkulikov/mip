@@ -194,6 +194,7 @@ class UniversalOptimizer:
 
     # Первый вызов оптимизатора
     def first(self, config):
+
         # Открытие туннеля
         self.tunnel_starter(config['delay'])
         # Запуск оптимизатора
