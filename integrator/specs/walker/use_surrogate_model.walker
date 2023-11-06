@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<storage>
+    <boxes>
+        <box name="Вызов суррогатной модели" text_id="use_surrogate_model" description="Вызов суррогатной модели" standalone="false">
+            <type>
+                <item name="Скрипт" id="Script"/>
+                <item name="Суррогатная модель" id="Surrogate"/>
+            </type>
+            <properties>
+                <property id="auto_pins_configuration" value="1_in 3_out" hidden="true"/>
+                #<property id="method" hidden="true" value="VAE" tags="label" type="string_tag"/>
+                <property name="Путь к суррогатной модели" id="surrogate_model_path" tags="label" type="string_tag"/>
+                <property name="Путь к входным данным" id="in_file_name" tags="label" type="string_tag"/>
+                <property name="Путь к выходным данным" id="out_file_name" tags="label" type="string_tag"/>
+            </properties>
+        </box>
+    </boxes>
+</storage>

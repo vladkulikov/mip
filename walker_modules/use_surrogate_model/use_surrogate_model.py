@@ -5,7 +5,6 @@ import json
 import subprocess
 from pathlib import Path
 
-from link_creator.link_creator import LinkCreator
 from util_container.util_container import UtilContainer as utils
 from pool_helper.pool_helper import PoolHelper, CurrentTask, InitTask
 
@@ -37,6 +36,7 @@ class UseSurrogateModel:
                 fout.write(';'.join([str(step[i]) for i in range(len(step))]) + '\n')
 
     def _create_cfg_file(self):
+
         config = {
             'surrogate_model_path': self._surrogate_model_path,
             'action': 'evaluate_point',
@@ -44,14 +44,16 @@ class UseSurrogateModel:
             'data_file_path': self._in_file_name
         }
         with open(self._cfg_file_name, 'w') as fh:
-            fh.write(json.dumps(config, indent = 4))
+            fh.write(json.dumps(config, indent=4))
+
 
     def _create_configuration(self):
-        #self._create_input_file()
+        # self._create_input_file()
         self._create_cfg_file()
 
     def _check_options(self):
-        if not ((self._config['surrogate_model_path'].__contains__('/')) | (self._config['surrogate_model_path'].__contains__('\\'))):
+        if not ((self._config['surrogate_model_path'].__contains__('/')) | (
+                self._config['surrogate_model_path'].__contains__('\\'))):
             self._surrogate_model_path = self._get_absolute_path(self._config['surrogate_model_path'])
         else:
             self._surrogate_model_path = self._config['surrogate_model_path']
@@ -63,13 +65,15 @@ class UseSurrogateModel:
             self._out_file_name = self._get_absolute_path(self._config['out_file_name'])
         else:
             self._out_file_name = self._config['out_file_name']
+
         if not os.path.exists(self._surrogate_model_path):
             sys.exit(1)
         if not os.path.exists(self._in_file_name):
             sys.exit(1)
+
         line_count = 0
         with open(self._in_file_name, 'r') as fh:
-            line_count =len(fh.readlines())
+            line_count = len(fh.readlines())
         if line_count == 0:
             sys.exit(1)
 
@@ -88,6 +92,7 @@ class UseSurrogateModel:
             )
         elif sys.platform.startswith('win32'):
             path_python = PoolHelper().walker_util_path.replace('walker_utils', 'integrator')
+
             command = '"{}" "{}" "{}"'.format(
                 os.path.join(path_python, 'python37', PoolHelper().python_app),
                 os.path.join(module_path, r'main.py'),
@@ -114,13 +119,8 @@ class UseSurrogateModel:
             raise RuntimeError(
                 LC("Error: file {} not exist.").format(self._out_file_name)
             )
-			
-    def _create_link(self):
-        link_creator = LinkCreator(PoolHelper().local_project)
-        link_creator.create(utils.local_profile, utils.relative_element_path(self._out_file_name))
-                
+
     def process(self):
         self._check_options()
         self._create_configuration()
         self._run()
-        #self._create_link()
