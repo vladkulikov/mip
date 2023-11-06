@@ -25,8 +25,6 @@ def main_exit():
 
 
 if __name__ == '__main__':
-    with open('test.txt', 'w+') as fout:
-        fout.write('1')
     try:
         main(sys.argv[1])
     except Exception:
