@@ -1,0 +1,9 @@
+{
+    "external": {
+        "module_name": "success_step_finalizer",
+        "scenario_name": "9_Uspeshnoe_zavershenie_shaga"
+    },
+    "internal": {
+        "multivariant": false
+    }
+}

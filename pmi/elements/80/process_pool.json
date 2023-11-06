@@ -1,0 +1,33 @@
+{
+    "current_variant": {
+        "step": 9,
+        "x_values": [
+            {
+                "name": "x_1",
+                "type": "float",
+                "ext_data": {
+                    "human_path": "float",
+                    "model_path": "",
+                    "task_id": "-1",
+                    "yaml_path": ""
+                },
+                "value": 0.9694290148177607
+            }
+        ],
+        "path": "C:/Users/vadya/VNIIEF/LOGOS-5.3.22.805/EXAMPLES/LOGOS-MIP/Projects/pmi/elements/80/step_9",
+        "status": true,
+        "y_values": [
+            {
+                "name": "res",
+                "type": "objective",
+                "value": 1.9388580296355213
+            }
+        ]
+    },
+    "variants_total": 10,
+    "sub_walkers": {
+        "step_name": "C:\\Users\\vadya\\VNIIEF\\LOGOS-5.3.22.805\\EXAMPLES\\LOGOS-MIP\\Projects\\pmi\\elements\\80\\step_9"
+    },
+    "constants": [],
+    "variants": {}
+}

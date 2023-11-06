@@ -1,0 +1,94 @@
+
+
+recv mes 
+
+send opt 
+
+recv opt 
+rcv {"output": {"status": "process", "evaluations": {"evaluation_index": 0, "variables": [{"x_1": {"value": 0.5106688806270117}}, {"x_2": {"value": -0.7275884301368509}}]}}}
+send {"output": {"status": "process", "evaluations": {"evaluation_index": 0, "variables": [{"x_1": {"value": 0.5106688806270117}}, {"x_2": {"value": -0.7275884301368509}}]}}}
+send mes 
+rcv {"input": {"status": "process", "evaluations": {"evaluation_index": 0, "functions": [{"0": {"value": -0.21691954950983927}}], "constraints": []}}}
+send {"input": {"status": "process", "evaluations": {"evaluation_index": 0, "functions": [{"0": {"value": -0.21691954950983927}}], "constraints": []}}}
+
+send opt 
+
+recv opt 
+rcv {"output": {"status": "process", "evaluations": {"evaluation_index": 1, "variables": [{"x_1": {"value": 0.5106688955281729}}, {"x_2": {"value": -0.7275884301368509}}]}}}
+send {"output": {"status": "process", "evaluations": {"evaluation_index": 1, "variables": [{"x_1": {"value": 0.5106688955281729}}, {"x_2": {"value": -0.7275884301368509}}]}}}
+send mes 
+
+recv mes 
+rcv {"input": {"status": "process", "evaluations": {"evaluation_index": 1, "functions": [{"0": {"value": -0.21691953460867808}}], "constraints": []}}}
+send {"input": {"status": "process", "evaluations": {"evaluation_index": 1, "functions": [{"0": {"value": -0.21691953460867808}}], "constraints": []}}}
+
+send opt 
+
+recv opt 
+rcv {"output": {"status": "process", "evaluations": {"evaluation_index": 2, "variables": [{"x_1": {"value": 0.5106688806270117}}, {"x_2": {"value": -0.7275884152356897}}]}}}
+send {"output": {"status": "process", "evaluations": {"evaluation_index": 2, "variables": [{"x_1": {"value": 0.5106688806270117}}, {"x_2": {"value": -0.7275884152356897}}]}}}
+send mes 
+
+recv mes 
+rcv {"input": {"status": "process", "evaluations": {"evaluation_index": 2, "functions": [{"0": {"value": -0.21691953460867808}}], "constraints": []}}}
+send {"input": {"status": "process", "evaluations": {"evaluation_index": 2, "functions": [{"0": {"value": -0.21691953460867808}}], "constraints": []}}}
+
+send opt 
+
+recv opt 
+rcv {"output": {"status": "process", "evaluations": {"evaluation_index": 3, "variables": [{"x_1": {"value": -0.48933111937298834}}, {"x_2": {"value": -1.727588430136851}}]}}}
+send {"output": {"status": "process", "evaluations": {"evaluation_index": 3, "variables": [{"x_1": {"value": -0.48933111937298834}}, {"x_2": {"value": -1.727588430136851}}]}}}
+send mes 
+
+recv mes 
+rcv {"input": {"status": "process", "evaluations": {"evaluation_index": 3, "functions": [{"0": {"value": -2.2169195495098393}}], "constraints": []}}}
+send {"input": {"status": "process", "evaluations": {"evaluation_index": 3, "functions": [{"0": {"value": -2.2169195495098393}}], "constraints": []}}}
+
+send opt 
+
+recv opt 
+rcv {"output": {"status": "process", "evaluations": {"evaluation_index": 4, "variables": [{"x_1": {"value": -0.48933110447182715}}, {"x_2": {"value": -1.727588430136851}}]}}}
+send {"output": {"status": "process", "evaluations": {"evaluation_index": 4, "variables": [{"x_1": {"value": -0.48933110447182715}}, {"x_2": {"value": -1.727588430136851}}]}}}
+send mes 
+
+recv mes 
+rcv {"input": {"status": "process", "evaluations": {"evaluation_index": 4, "functions": [{"0": {"value": -2.216919534608678}}], "constraints": []}}}
+send {"input": {"status": "process", "evaluations": {"evaluation_index": 4, "functions": [{"0": {"value": -2.216919534608678}}], "constraints": []}}}
+
+send opt 
+rcv {"output": {"status": "process", "evaluations": {"evaluation_index": 5, "variables": [{"x_1": {"value": -0.48933111937298834}}, {"x_2": {"value": -1.7275884152356897}}]}}}
+send {"output": {"status": "process", "evaluations": {"evaluation_index": 5, "variables": [{"x_1": {"value": -0.48933111937298834}}, {"x_2": {"value": -1.7275884152356897}}]}}}
+send mes 
+rcv {"input": {"status": "process", "evaluations": {"evaluation_index": 5, "functions": [{"0": {"value": -2.216919534608678}}], "constraints": []}}}
+send {"input": {"status": "process", "evaluations": {"evaluation_index": 5, "functions": [{"0": {"value": -2.216919534608678}}], "constraints": []}}}
+
+send opt 
+rcv {"output": {"status": "process", "evaluations": {"evaluation_index": 6, "variables": [{"x_1": {"value": -2.0}}, {"x_2": {"value": -1.9999999999999993}}]}}}
+send {"output": {"status": "process", "evaluations": {"evaluation_index": 6, "variables": [{"x_1": {"value": -2.0}}, {"x_2": {"value": -1.9999999999999993}}]}}}
+send mes 
+
+recv mes 
+rcv {"input": {"status": "process", "evaluations": {"evaluation_index": 6, "functions": [{"0": {"value": -3.999999999999999}}], "constraints": []}}}
+send {"input": {"status": "process", "evaluations": {"evaluation_index": 6, "functions": [{"0": {"value": -3.999999999999999}}], "constraints": []}}}
+
+send opt 
+
+recv opt 
+rcv {"output": {"status": "process", "evaluations": {"evaluation_index": 7, "variables": [{"x_1": {"value": -1.9999999850988388}}, {"x_2": {"value": -1.9999999999999993}}]}}}
+send {"output": {"status": "process", "evaluations": {"evaluation_index": 7, "variables": [{"x_1": {"value": -1.9999999850988388}}, {"x_2": {"value": -1.9999999999999993}}]}}}
+send mes 
+rcv {"input": {"status": "process", "evaluations": {"evaluation_index": 7, "functions": [{"0": {"value": -3.999999985098838}}], "constraints": []}}}
+send {"input": {"status": "process", "evaluations": {"evaluation_index": 7, "functions": [{"0": {"value": -3.999999985098838}}], "constraints": []}}}
+
+send opt 
+rcv {"output": {"status": "process", "evaluations": {"evaluation_index": 8, "variables": [{"x_1": {"value": -2.0}}, {"x_2": {"value": -1.9999999850988381}}]}}}
+send {"output": {"status": "process", "evaluations": {"evaluation_index": 8, "variables": [{"x_1": {"value": -2.0}}, {"x_2": {"value": -1.9999999850988381}}]}}}
+send mes 
+
+recv mes 
+rcv {"input": {"status": "process", "evaluations": {"evaluation_index": 8, "functions": [{"0": {"value": -3.999999985098838}}], "constraints": []}}}
+send {"input": {"status": "process", "evaluations": {"evaluation_index": 8, "functions": [{"0": {"value": -3.999999985098838}}], "constraints": []}}}
+
+send opt 
+rcv {"output": {"status": "finish", "best_evaluation": [6]}}
+send {"output": {"status": "finish", "best_evaluation": [6]}}

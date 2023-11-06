@@ -1,0 +1,17 @@
+2023-11-03 17:05:58,596 [INFO] Текущая версия интерпретатора Python : 3.7.5
+2023-11-03 17:05:58,597 [INFO] Текущий каталог проекта : C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\EXAMPLES\LOGOS-MIP\Projects\pmi\elements\59\step_2
+2023-11-03 17:05:58,597 [INFO] Имя файла сценария : C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\EXAMPLES\LOGOS-MIP\Projects\pmi\elements\59\walker_data\4_Scenariy_bez_ogranicheniya_vremeni_v.0.1_scenario.json
+2023-11-03 17:05:58,597 [INFO] Запуск процесса обработки сценария ...
+2023-11-03 17:05:58,597 [INFO] Текущая версия сценария : unknown
+2023-11-03 17:05:58,597 [INFO] Описание сценария : 
+2023-11-03 17:05:58,598 [INFO] Точка входа в сценарий : 8_Kalkulyator
+2023-11-03 17:05:58,605 [INFO] 		Запуск процесса python "C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\LOGOS-MIP\walker_modules\calculator\main.py" "C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\EXAMPLES\LOGOS-MIP\Projects\pmi\elements\59\walker_data\8_Kalkulyator.json" : идентификатор процесса 9428 : номер шага 8_Kalkulyator
+2023-11-03 17:05:58,842 [INFO] 		Процесс python "C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\LOGOS-MIP\walker_modules\calculator\main.py" "C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\EXAMPLES\LOGOS-MIP\Projects\pmi\elements\59\walker_data\8_Kalkulyator.json" завершил свою работу : идентификатор процесса 9428 : код возврата 0
+2023-11-03 17:05:58,843 [INFO] Переход на шаг :  9_Vozvraschaemye_rezultaty_shaga
+2023-11-03 17:05:58,861 [INFO] 		Запуск процесса python "C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\LOGOS-MIP\walker_modules\step_result_returner\main.py" "C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\EXAMPLES\LOGOS-MIP\Projects\pmi\elements\59\walker_data\9_Vozvraschaemye_rezultaty_shaga.json" : идентификатор процесса 7048 : номер шага 9_Vozvraschaemye_rezultaty_shaga
+2023-11-03 17:05:59,111 [INFO] 		Процесс python "C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\LOGOS-MIP\walker_modules\step_result_returner\main.py" "C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\EXAMPLES\LOGOS-MIP\Projects\pmi\elements\59\walker_data\9_Vozvraschaemye_rezultaty_shaga.json" завершил свою работу : идентификатор процесса 7048 : код возврата 0
+2023-11-03 17:05:59,112 [INFO] Переход на шаг :  10_Uspeshnoe_zavershenie_shaga
+2023-11-03 17:05:59,123 [INFO] 		Запуск процесса python "C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\LOGOS-MIP\walker_modules\success_step_finalizer\main.py" "C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\EXAMPLES\LOGOS-MIP\Projects\pmi\elements\59\walker_data\10_Uspeshnoe_zavershenie_shaga.json" : идентификатор процесса 2136 : номер шага 10_Uspeshnoe_zavershenie_shaga
+2023-11-03 17:05:59,365 [INFO] 		Процесс python "C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\LOGOS-MIP\walker_modules\success_step_finalizer\main.py" "C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\EXAMPLES\LOGOS-MIP\Projects\pmi\elements\59\walker_data\10_Uspeshnoe_zavershenie_shaga.json" завершил свою работу : идентификатор процесса 2136 : код возврата 0
+2023-11-03 17:05:59,366 [INFO] Переход на шаг :  11_KONEC
+2023-11-03 17:05:59,366 [INFO] Обработчик сценария завершил свою работу со статусом нормальное завершение (success) : общее время выполнения сценария 0.77 секунд

@@ -1,0 +1,11 @@
+{
+    "direct": {
+        "receiver": "\\\\.\\pipe\\zzz.266e8544-e8a3-451f-8b5a-4ba850e75e34",
+        "sender": "\\\\.\\pipe\\zzz.b9b87cd7-f6f4-41fd-9f6a-5074bcbb01d3"
+    },
+    "family": "AF_PIPE",
+    "reverse": {
+        "receiver": "\\\\.\\pipe\\zzz.8e62dbe3-a0a7-48bc-b704-bb8fe3969816",
+        "sender": "\\\\.\\pipe\\zzz.1d14b5ef-d49a-44ee-b2ac-3974932d9a46"
+    }
+}

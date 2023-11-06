@@ -1,0 +1,25 @@
+{
+    "_pool_parent_path_": "C:/Users/vadya/VNIIEF/LOGOS-5.3.22.805/EXAMPLES/LOGOS-MIP/Projects/pmi/elements/80",
+    "_pool_root_path_": "C:/Users/vadya/VNIIEF/LOGOS-5.3.22.805/EXAMPLES/LOGOS-MIP/Projects/pmi/elements/80",
+    "x_values": [
+        {
+            "name": "x_1",
+            "type": "float",
+            "ext_data": {
+                "human_path": "float",
+                "model_path": "",
+                "task_id": "-1",
+                "yaml_path": ""
+            },
+            "value": -0.5832154014776676
+        }
+    ],
+    "current_step": 8,
+    "constants": [],
+    "y_values": [
+        {
+            "name": "res",
+            "value": -1.1664308029553352
+        }
+    ]
+}

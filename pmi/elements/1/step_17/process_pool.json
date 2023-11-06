@@ -1,0 +1,36 @@
+{
+    "_pool_parent_path_": "C:/Users/vadya/VNIIEF/LOGOS-5.3.22.805/EXAMPLES/LOGOS-MIP/Projects/Проект_1/elements/1",
+    "_pool_root_path_": "C:/Users/vadya/VNIIEF/LOGOS-5.3.22.805/EXAMPLES/LOGOS-MIP/Projects/Проект_1/elements/1",
+    "x_values": [
+        {
+            "name": "x_1",
+            "type": "float",
+            "ext_data": {
+                "human_path": "float",
+                "model_path": "",
+                "task_id": "-1",
+                "yaml_path": ""
+            },
+            "value": -779.6926876655964
+        },
+        {
+            "name": "x_2",
+            "type": "float",
+            "ext_data": {
+                "human_path": "float",
+                "model_path": "",
+                "task_id": "-1",
+                "yaml_path": ""
+            },
+            "value": -782.8626263662507
+        }
+    ],
+    "current_step": 17,
+    "constants": [],
+    "y_values": [
+        {
+            "name": "res",
+            "value": -1562.555314031847
+        }
+    ]
+}

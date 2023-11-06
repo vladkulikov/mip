@@ -1,0 +1,1 @@
+"C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\LOGOS-MIP\integrator\python37\python.exe" "C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\LOGOS-MIP\walker_utils\approximation-py\src\adapter\use_surrogate\main.py" "C:/Users/vadya/VNIIEF/LOGOS-5.3.22.805/EXAMPLES/LOGOS-MIP/Projects/pmi/elements/102/config.json"

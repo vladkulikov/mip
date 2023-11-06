@@ -1,0 +1,39 @@
+{
+    "optimization": {
+        "optimization_method": "SLSQP",
+        "SLSQP": {
+            "model": {
+                "x_dim": 2,
+                "y_dim": 1,
+                "x_bounds": [
+                    [
+                        -2,
+                        2
+                    ],
+                    [
+                        -2,
+                        2
+                    ]
+                ],
+                "y_names": [
+                    "0"
+                ]
+            },
+            "evaluate_file_path": "points.csv",
+            "out_file_path": "input.csv",
+            "data_file_path": "output.csv",
+            "max_iteration": 100,
+            "accuracy_x": 0.01,
+            "accuracy_y": 0.01,
+            "sampling_method": "latin",
+            "number_of_ineffective_steps": 20,
+            "objectives": [
+                {
+                    "name": "0",
+                    "obj_type": "min",
+                    "weight": 1
+                }
+            ]
+        }
+    }
+}

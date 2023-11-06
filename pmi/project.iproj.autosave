@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data_structure project_id="0">
+    <element_pool base_id="0" current_id="144">
+        <project name="PMI" id="0"/>
+        <walker_task name="BasinHopping" id="1">
+            <property name="group" value="WalkerTasks" type="QString"/>
+            <file path="walker_data/walker.json"/>
+            <file path="walker_data/1_Ochistka_direktorii_zadachi.json"/>
+            <file path="walker_data/2_Metod_BasinHopping.json"/>
+            <file path="walker_data/3_Sozdanie_shaga.json"/>
+            <file path="walker_data/4_Scenariy_bez_ogranicheniya_vremeni_v.0.1.json"/>
+            <file path="walker_data/5_Sohranenie_rezultatov_shagov.json"/>
+            <file path="walker_data/6_Zapis_vybrannogo_spiska_shagov.json"/>
+            <file path="walker_data/7_Zapusk_komandy.json"/>
+            <file path="walker_data/4_Scenariy_bez_ogranicheniya_vremeni_v.0.1_scenario.json"/>
+            <file path="walker_data/8_Kalkulyator.json"/>
+            <file path="walker_data/9_Vozvraschaemye_rezultaty_shaga.json"/>
+            <file path="walker_data/10_Uspeshnoe_zavershenie_shaga.json"/>
+            <file path="walker_data/11_Neudachnoe_zavershenie_shaga.json"/>
+            <file path="integrator_data/scheme.data"/>
+            <file path="integrator_data/scheme.data.style"/>
+        </walker_task>
+        <step name="step_0" id="16" relative_path="1/step_0">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/1/step_0"/>
+        </step>
+        <results name="parameters.csv" id="17" relative_path="1/step_0">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <results name="results.csv" id="18" relative_path="1">
+            <property name="update" value="false" type="bool"/>
+            <file path="results.csv"/>
+        </results>
+        <step name="step_1" id="19" relative_path="1/step_1">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/1/step_1"/>
+        </step>
+        <results name="parameters.csv" id="20" relative_path="1/step_1">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_2" id="21" relative_path="1/step_2">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/1/step_2"/>
+        </step>
+        <results name="parameters.csv" id="22" relative_path="1/step_2">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_3" id="23" relative_path="1/step_3">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/1/step_3"/>
+        </step>
+        <results name="parameters.csv" id="24" relative_path="1/step_3">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_4" id="25" relative_path="1/step_4">
+            <file source="local/1/step_4"/>
+        </step>
+        <results name="parameters.csv" id="26" relative_path="1/step_4">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_5" id="27" relative_path="1/step_5">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/1/step_5"/>
+        </step>
+        <results name="parameters.csv" id="28" relative_path="1/step_5">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_6" id="29" relative_path="1/step_6">
+            <file source="local/1/step_6"/>
+        </step>
+        <results name="parameters.csv" id="30" relative_path="1/step_6">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_7" id="31" relative_path="1/step_7">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/1/step_7"/>
+        </step>
+        <results name="parameters.csv" id="32" relative_path="1/step_7">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_8" id="33" relative_path="1/step_8">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/1/step_8"/>
+        </step>
+        <results name="parameters.csv" id="34" relative_path="1/step_8">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_9" id="35" relative_path="1/step_9">
+            <file source="local/1/step_9"/>
+        </step>
+        <results name="parameters.csv" id="36" relative_path="1/step_9">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_10" id="37" relative_path="1/step_10">
+            <file source="local/1/step_10"/>
+        </step>
+        <results name="parameters.csv" id="38" relative_path="1/step_10">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_11" id="39" relative_path="1/step_11">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/1/step_11"/>
+        </step>
+        <results name="parameters.csv" id="40" relative_path="1/step_11">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_12" id="41" relative_path="1/step_12">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/1/step_12"/>
+        </step>
+        <results name="parameters.csv" id="42" relative_path="1/step_12">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_13" id="43" relative_path="1/step_13">
+            <file source="local/1/step_13"/>
+        </step>
+        <results name="parameters.csv" id="44" relative_path="1/step_13">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_14" id="45" relative_path="1/step_14">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/1/step_14"/>
+        </step>
+        <results name="parameters.csv" id="46" relative_path="1/step_14">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_15" id="47" relative_path="1/step_15">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/1/step_15"/>
+        </step>
+        <results name="parameters.csv" id="48" relative_path="1/step_15">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_16" id="49" relative_path="1/step_16">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/1/step_16"/>
+        </step>
+        <results name="parameters.csv" id="50" relative_path="1/step_16">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_17" id="51" relative_path="1/step_17">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/1/step_17"/>
+        </step>
+        <results name="parameters.csv" id="52" relative_path="1/step_17">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_18" id="53" relative_path="1/step_18">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/1/step_18"/>
+        </step>
+        <results name="parameters.csv" id="54" relative_path="1/step_18">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_19" id="55" relative_path="1/step_19">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/1/step_19"/>
+        </step>
+        <results name="parameters.csv" id="56" relative_path="1/step_19">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_20" id="57" relative_path="1/step_20">
+            <file source="local/1/step_20"/>
+        </step>
+        <results name="parameters.csv" id="58" relative_path="1/step_20">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <walker_task name="SLSQP" id="59">
+            <property name="group" value="WalkerTasks" type="QString"/>
+            <file path="walker_data/walker.json"/>
+            <file path="walker_data/1_Kalkulyator.json"/>
+            <file path="walker_data/2_Vozvraschaemye_rezultaty_shaga.json"/>
+            <file path="walker_data/3_Uspeshnoe_zavershenie_shaga.json"/>
+            <file path="walker_data/4_Neudachnoe_zavershenie_shaga.json"/>
+            <file path="integrator_data/scheme.data"/>
+            <file path="integrator_data/scheme.data.style"/>
+            <file path="walker_data/1_Ochistka_direktorii_zadachi.json"/>
+            <file path="walker_data/2_Metod_SLSQP.json"/>
+            <file path="walker_data/3_Sozdanie_shaga.json"/>
+            <file path="walker_data/4_Scenariy_bez_ogranicheniya_vremeni_v.0.1.json"/>
+            <file path="walker_data/5_Sohranenie_rezultatov_shagov.json"/>
+            <file path="walker_data/6_Zapis_vybrannogo_spiska_shagov.json"/>
+            <file path="walker_data/7_Zapusk_komandy.json"/>
+            <file path="walker_data/4_Scenariy_bez_ogranicheniya_vremeni_v.0.1_scenario.json"/>
+            <file path="walker_data/8_Kalkulyator.json"/>
+            <file path="walker_data/9_Vozvraschaemye_rezultaty_shaga.json"/>
+            <file path="walker_data/10_Uspeshnoe_zavershenie_shaga.json"/>
+            <file path="walker_data/11_Neudachnoe_zavershenie_shaga.json"/>
+        </walker_task>
+        <walker_task name="Создание суррогатной модели" id="80">
+            <property name="group" value="WalkerTasks" type="QString"/>
+            <file path="integrator_data/scheme.data"/>
+            <file path="integrator_data/scheme.data.style"/>
+            <file path="walker_data/walker.json"/>
+            <file path="walker_data/1_Ochistka_direktorii_zadachi.json"/>
+            <file path="walker_data/2_Varirovanie_parametrov.json"/>
+            <file path="walker_data/3_Sozdanie_shaga.json"/>
+            <file path="walker_data/4_Scenariy_s_ogranicheniem_vremeni_v.0.1.json"/>
+            <file path="walker_data/5_Sohranenie_rezultatov_shagov.json"/>
+            <file path="walker_data/6_Surrogatnaya_model_na_osnove_krigginga.json"/>
+            <file path="walker_data/7_Zapis_vybrannogo_spiska_shagov.json"/>
+            <file path="walker_data/4_Scenariy_s_ogranicheniem_vremeni_v.0.1_scenario.json"/>
+            <file path="walker_data/8_Kalkulyator.json"/>
+            <file path="walker_data/9_Uspeshnoe_zavershenie_shaga.json"/>
+            <file path="walker_data/10_Neudachnoe_zavershenie_shaga.json"/>
+            <file path="walker_data/10_Vozvraschaemye_rezultaty_shaga.json"/>
+            <file path="walker_data/11_Neudachnoe_zavershenie_shaga.json"/>
+        </walker_task>
+        <walker_task name="Схема расчета" id="102">
+            <property name="group" value="WalkerTasks" type="QString"/>
+            <file path="walker_data/walker.json"/>
+            <file path="walker_data/1_Vyzov_surrogatnoy_modeli.json"/>
+            <file path="integrator_data/scheme.data"/>
+            <file path="integrator_data/scheme.data.style"/>
+            <file path="walker_data/1_Ochistka_direktorii_zadachi.json"/>
+            <file path="walker_data/2_Vyzov_surrogatnoy_modeli.json"/>
+        </walker_task>
+        <step name="step_0" id="103" relative_path="80/step_0">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/80/step_0"/>
+        </step>
+        <results name="parameters.csv" id="104" relative_path="80/step_0">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <results name="results.csv" id="105" relative_path="80">
+            <property name="update" value="false" type="bool"/>
+            <file path="results.csv"/>
+        </results>
+        <step name="step_1" id="106" relative_path="80/step_1">
+            <file source="local/80/step_1"/>
+        </step>
+        <results name="parameters.csv" id="107" relative_path="80/step_1">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_2" id="108" relative_path="80/step_2">
+            <file source="local/80/step_2"/>
+        </step>
+        <results name="parameters.csv" id="109" relative_path="80/step_2">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_3" id="110" relative_path="80/step_3">
+            <file source="local/80/step_3"/>
+        </step>
+        <results name="parameters.csv" id="111" relative_path="80/step_3">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_4" id="112" relative_path="80/step_4">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/80/step_4"/>
+        </step>
+        <results name="parameters.csv" id="113" relative_path="80/step_4">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_5" id="114" relative_path="80/step_5">
+            <file source="local/80/step_5"/>
+        </step>
+        <results name="parameters.csv" id="115" relative_path="80/step_5">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_6" id="116" relative_path="80/step_6">
+            <file source="local/80/step_6"/>
+        </step>
+        <results name="parameters.csv" id="117" relative_path="80/step_6">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_7" id="118" relative_path="80/step_7">
+            <file source="local/80/step_7"/>
+        </step>
+        <results name="parameters.csv" id="119" relative_path="80/step_7">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_8" id="120" relative_path="80/step_8">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/80/step_8"/>
+        </step>
+        <results name="parameters.csv" id="121" relative_path="80/step_8">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_9" id="122" relative_path="80/step_9">
+            <file source="local/80/step_9"/>
+        </step>
+        <results name="parameters.csv" id="123" relative_path="80/step_9">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_0" id="124" relative_path="59/step_0">
+            <file source="local/59/step_0"/>
+        </step>
+        <results name="parameters.csv" id="125" relative_path="59/step_0">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <results name="results.csv" id="126" relative_path="59">
+            <property name="update" value="false" type="bool"/>
+            <file path="results.csv"/>
+        </results>
+        <step name="step_1" id="127" relative_path="59/step_1">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/59/step_1"/>
+        </step>
+        <results name="parameters.csv" id="128" relative_path="59/step_1">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_2" id="129" relative_path="59/step_2">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/59/step_2"/>
+        </step>
+        <results name="parameters.csv" id="130" relative_path="59/step_2">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_3" id="131" relative_path="59/step_3">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/59/step_3"/>
+        </step>
+        <results name="parameters.csv" id="132" relative_path="59/step_3">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_4" id="133" relative_path="59/step_4">
+            <file source="local/59/step_4"/>
+        </step>
+        <results name="parameters.csv" id="134" relative_path="59/step_4">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_5" id="135" relative_path="59/step_5">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/59/step_5"/>
+        </step>
+        <results name="parameters.csv" id="136" relative_path="59/step_5">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_6" id="137" relative_path="59/step_6">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/59/step_6"/>
+        </step>
+        <results name="parameters.csv" id="138" relative_path="59/step_6">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_7" id="139" relative_path="59/step_7">
+            <property name="update" value="true" type="bool"/>
+            <file source="local/59/step_7"/>
+        </step>
+        <results name="parameters.csv" id="140" relative_path="59/step_7">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <step name="step_8" id="141" relative_path="59/step_8">
+            <file source="local/59/step_8"/>
+        </step>
+        <results name="parameters.csv" id="142" relative_path="59/step_8">
+            <property name="update" value="false" type="bool"/>
+            <file path="parameters.csv"/>
+        </results>
+        <results name="selected_steps.csv" id="143" relative_path="59">
+            <property name="update" value="false" type="bool"/>
+            <file path="selected_steps.csv"/>
+        </results>
+    </element_pool>
+    <link_pool>
+        <link valid="true" parent_id="0" child_id="1"/>
+        <link valid="true" parent_id="0" child_id="59"/>
+        <link valid="true" parent_id="0" child_id="80"/>
+        <link valid="true" parent_id="0" child_id="102"/>
+        <link valid="true" parent_id="1" child_id="16"/>
+        <link valid="true" parent_id="1" child_id="18"/>
+        <link valid="true" parent_id="1" child_id="19"/>
+        <link valid="true" parent_id="1" child_id="21"/>
+        <link valid="true" parent_id="1" child_id="23"/>
+        <link valid="true" parent_id="1" child_id="25"/>
+        <link valid="true" parent_id="1" child_id="27"/>
+        <link valid="true" parent_id="1" child_id="29"/>
+        <link valid="true" parent_id="1" child_id="31"/>
+        <link valid="true" parent_id="1" child_id="33"/>
+        <link valid="true" parent_id="1" child_id="35"/>
+        <link valid="true" parent_id="1" child_id="37"/>
+        <link valid="true" parent_id="1" child_id="39"/>
+        <link valid="true" parent_id="1" child_id="41"/>
+        <link valid="true" parent_id="1" child_id="43"/>
+        <link valid="true" parent_id="1" child_id="45"/>
+        <link valid="true" parent_id="1" child_id="47"/>
+        <link valid="true" parent_id="1" child_id="49"/>
+        <link valid="true" parent_id="1" child_id="51"/>
+        <link valid="true" parent_id="1" child_id="53"/>
+        <link valid="true" parent_id="1" child_id="55"/>
+        <link valid="true" parent_id="1" child_id="57"/>
+        <link valid="true" parent_id="16" child_id="17"/>
+        <link valid="true" parent_id="19" child_id="20"/>
+        <link valid="true" parent_id="21" child_id="22"/>
+        <link valid="true" parent_id="23" child_id="24"/>
+        <link valid="true" parent_id="25" child_id="26"/>
+        <link valid="true" parent_id="27" child_id="28"/>
+        <link valid="true" parent_id="29" child_id="30"/>
+        <link valid="true" parent_id="31" child_id="32"/>
+        <link valid="true" parent_id="33" child_id="34"/>
+        <link valid="true" parent_id="35" child_id="36"/>
+        <link valid="true" parent_id="37" child_id="38"/>
+        <link valid="true" parent_id="39" child_id="40"/>
+        <link valid="true" parent_id="41" child_id="42"/>
+        <link valid="true" parent_id="43" child_id="44"/>
+        <link valid="true" parent_id="45" child_id="46"/>
+        <link valid="true" parent_id="47" child_id="48"/>
+        <link valid="true" parent_id="49" child_id="50"/>
+        <link valid="true" parent_id="51" child_id="52"/>
+        <link valid="true" parent_id="53" child_id="54"/>
+        <link valid="true" parent_id="55" child_id="56"/>
+        <link valid="true" parent_id="57" child_id="58"/>
+        <link valid="true" parent_id="59" child_id="124"/>
+        <link valid="true" parent_id="59" child_id="126"/>
+        <link valid="true" parent_id="59" child_id="127"/>
+        <link valid="true" parent_id="59" child_id="129"/>
+        <link valid="true" parent_id="59" child_id="131"/>
+        <link valid="true" parent_id="59" child_id="133"/>
+        <link valid="true" parent_id="59" child_id="135"/>
+        <link valid="true" parent_id="59" child_id="137"/>
+        <link valid="true" parent_id="59" child_id="139"/>
+        <link valid="true" parent_id="59" child_id="141"/>
+        <link valid="true" parent_id="59" child_id="143"/>
+        <link valid="true" parent_id="80" child_id="103"/>
+        <link valid="true" parent_id="80" child_id="105"/>
+        <link valid="true" parent_id="80" child_id="106"/>
+        <link valid="true" parent_id="80" child_id="108"/>
+        <link valid="true" parent_id="80" child_id="110"/>
+        <link valid="true" parent_id="80" child_id="112"/>
+        <link valid="true" parent_id="80" child_id="114"/>
+        <link valid="true" parent_id="80" child_id="116"/>
+        <link valid="true" parent_id="80" child_id="118"/>
+        <link valid="true" parent_id="80" child_id="120"/>
+        <link valid="true" parent_id="80" child_id="122"/>
+        <link valid="true" parent_id="103" child_id="104"/>
+        <link valid="true" parent_id="106" child_id="107"/>
+        <link valid="true" parent_id="108" child_id="109"/>
+        <link valid="true" parent_id="110" child_id="111"/>
+        <link valid="true" parent_id="112" child_id="113"/>
+        <link valid="true" parent_id="114" child_id="115"/>
+        <link valid="true" parent_id="116" child_id="117"/>
+        <link valid="true" parent_id="118" child_id="119"/>
+        <link valid="true" parent_id="120" child_id="121"/>
+        <link valid="true" parent_id="122" child_id="123"/>
+        <link valid="true" parent_id="124" child_id="125"/>
+        <link valid="true" parent_id="127" child_id="128"/>
+        <link valid="true" parent_id="129" child_id="130"/>
+        <link valid="true" parent_id="131" child_id="132"/>
+        <link valid="true" parent_id="133" child_id="134"/>
+        <link valid="true" parent_id="135" child_id="136"/>
+        <link valid="true" parent_id="137" child_id="138"/>
+        <link valid="true" parent_id="139" child_id="140"/>
+        <link valid="true" parent_id="141" child_id="142"/>
+    </link_pool>
+</data_structure>

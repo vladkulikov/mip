@@ -1,0 +1,9 @@
+{
+    "external": {
+        "module_name": "fail_step_finalizer",
+        "scenario_name": "11_Neudachnoe_zavershenie_shaga"
+    },
+    "internal": {
+        "multivariant": false
+    }
+}

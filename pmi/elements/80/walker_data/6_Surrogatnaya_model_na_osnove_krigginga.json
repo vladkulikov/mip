@@ -1,0 +1,26 @@
+{
+    "external": {
+        "module_name": "surrogate_model",
+        "scenario_name": "6_Surrogatnaya_model_na_osnove_krigginga"
+    },
+    "internal": {
+        "attempt": 2,
+        "deltaF_weight": 1,
+        "distanceX_weight": 1,
+        "grid_nodes": 1000,
+        "method": "KrigingSampler",
+        "min_distance": 0.01,
+        "min_error": 0.001,
+        "request_points": 1,
+        "sampling_method": "latin",
+        "sparsity_weight": 1,
+        "start_points": 10,
+        "surrogate_type": "rbf",
+        "x_values": [
+            "x_1"
+        ],
+        "y_values": [
+            "res"
+        ]
+    }
+}

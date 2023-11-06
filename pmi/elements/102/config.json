@@ -1,0 +1,6 @@
+{
+    "surrogate_model_path": "C:/Users/vadya/VNIIEF/LOGOS-5.3.22.805/EXAMPLES/LOGOS-MIP/Projects/pmi/elements/102/kriging_model.zip",
+    "action": "evaluate_point",
+    "out_file_path": "C:/Users/vadya/VNIIEF/LOGOS-5.3.22.805/EXAMPLES/LOGOS-MIP/Projects/pmi/elements/102/test2.csv",
+    "data_file_path": "C:/Users/vadya/VNIIEF/LOGOS-5.3.22.805/EXAMPLES/LOGOS-MIP/Projects/pmi/elements/102/test.csv"
+}

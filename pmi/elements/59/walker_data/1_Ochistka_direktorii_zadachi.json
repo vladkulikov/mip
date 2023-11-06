@@ -1,0 +1,8 @@
+{
+    "external": {
+        "module_name": "cleaner",
+        "scenario_name": "1_Ochistka_direktorii_zadachi"
+    },
+    "internal": {
+    }
+}

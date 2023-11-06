@@ -1,0 +1,82 @@
+{
+    "description": "",
+    "entry_point": "1_Ochistka_direktorii_zadachi",
+    "step_list": {
+        "1_Ochistka_direktorii_zadachi": {
+            "parameters": {
+                "config_file": "1_Ochistka_direktorii_zadachi.json"
+            },
+            "return_codes": {
+                "-1": "6_KONEC",
+                "0": "2_Varirovanie_parametrov"
+            },
+            "type": "sync_exec"
+        },
+        "2_Varirovanie_parametrov": {
+            "parameters": {
+                "config_file": "2_Varirovanie_parametrov.json"
+            },
+            "return_codes": {
+                "-1": "6_KONEC",
+                "0": "3_Sozdanie_shaga",
+                "1": "6_Surrogatnaya_model_na_osnove_krigginga"
+            },
+            "type": "sync_exec"
+        },
+        "3_Sozdanie_shaga": {
+            "parameters": {
+                "config_file": "3_Sozdanie_shaga.json"
+            },
+            "return_codes": {
+                "-1": "6_KONEC",
+                "0": "4_Scenariy_s_ogranicheniem_vremeni_v.0.1"
+            },
+            "type": "sync_exec"
+        },
+        "4_Scenariy_s_ogranicheniem_vremeni_v.0.1": {
+            "parameters": {
+                "config_file": "4_Scenariy_s_ogranicheniem_vremeni_v.0.1.json"
+            },
+            "return_codes": {
+                "-1": "5_Sohranenie_rezultatov_shagov",
+                "0": "5_Sohranenie_rezultatov_shagov"
+            },
+            "type": "sync_exec"
+        },
+        "5_Sohranenie_rezultatov_shagov": {
+            "parameters": {
+                "config_file": "5_Sohranenie_rezultatov_shagov.json"
+            },
+            "return_codes": {
+                "-1": "6_KONEC",
+                "0": "2_Varirovanie_parametrov"
+            },
+            "type": "sync_exec"
+        },
+        "6_KONEC": {
+            "type": "stop"
+        },
+        "6_Surrogatnaya_model_na_osnove_krigginga": {
+            "parameters": {
+                "config_file": "6_Surrogatnaya_model_na_osnove_krigginga.json"
+            },
+            "return_codes": {
+                "-1": "6_KONEC",
+                "0": "2_Varirovanie_parametrov",
+                "1": "7_Zapis_vybrannogo_spiska_shagov"
+            },
+            "type": "sync_exec"
+        },
+        "7_Zapis_vybrannogo_spiska_shagov": {
+            "parameters": {
+                "config_file": "7_Zapis_vybrannogo_spiska_shagov.json"
+            },
+            "return_codes": {
+                "-1": "6_KONEC",
+                "0": "6_KONEC"
+            },
+            "type": "sync_exec"
+        }
+    },
+    "version": "1.0.0"
+}

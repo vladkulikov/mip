@@ -1,0 +1,12 @@
+{
+    "external": {
+        "TimeLimit": 600,
+        "module_name": "sub_walker_starter",
+        "scenario_name": "4_Scenariy_s_ogranicheniem_vremeni_v.0.1"
+    },
+    "internal": {
+        "script_name": "4_Scenariy_s_ogranicheniem_vremeni_v.0.1_scenario.json",
+        "tag": "step_name",
+        "work_dir": ""
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "external": {
+        "module_name": "step_creator",
+        "scenario_name": "3_Sozdanie_shaga"
+    },
+    "internal": {
+        "tag": "step_name"
+    }
+}

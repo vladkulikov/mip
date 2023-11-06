@@ -1,0 +1,43 @@
+{
+    "optimizer_type": "optim63",
+    "current_variant": {
+        "step": 20,
+        "x_values": [
+            {
+                "name": "x_1",
+                "type": "float",
+                "ext_data": {
+                    "human_path": "float",
+                    "model_path": "",
+                    "task_id": "-1",
+                    "yaml_path": ""
+                },
+                "value": -3904.6926876656034
+            },
+            {
+                "name": "x_2",
+                "type": "float",
+                "ext_data": {
+                    "human_path": "float",
+                    "model_path": "",
+                    "task_id": "-1",
+                    "yaml_path": ""
+                },
+                "value": -3907.8626263662572
+            }
+        ],
+        "path": "C:/Users/vadya/VNIIEF/LOGOS-5.3.22.805/EXAMPLES/LOGOS-MIP/Projects/Проект_1/elements/1/step_20",
+        "y_values": [
+            {
+                "name": "res",
+                "type": "objective",
+                "value": -7812.555314031861
+            }
+        ],
+        "status": true
+    },
+    "sub_walkers": {
+        "step_name": "C:\\Users\\vadya\\VNIIEF\\LOGOS-5.3.22.805\\EXAMPLES\\LOGOS-MIP\\Projects\\Проект_1\\elements\\1\\step_20"
+    },
+    "constants": []
+}

@@ -1,0 +1,12 @@
+{
+    "external": {
+        "module_name": "use_surrogate_model",
+        "scenario_name": "2_Vyzov_surrogatnoy_modeli"
+    },
+    "internal": {
+        "in_file_name": "test.csv",
+        "method": "VAE",
+        "out_file_name": "test2.csv",
+        "surrogate_model_path": "kriging_model.zip"
+    }
+}

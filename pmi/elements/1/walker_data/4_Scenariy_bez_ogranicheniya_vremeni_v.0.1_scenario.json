@@ -1,0 +1,50 @@
+{
+    "description": "",
+    "entry_point": "8_Kalkulyator",
+    "step_list": {
+        "10_Uspeshnoe_zavershenie_shaga": {
+            "parameters": {
+                "config_file": "10_Uspeshnoe_zavershenie_shaga.json"
+            },
+            "return_codes": {
+                "-1": "11_KONEC",
+                "0": "11_KONEC"
+            },
+            "type": "sync_exec"
+        },
+        "11_KONEC": {
+            "type": "stop"
+        },
+        "11_Neudachnoe_zavershenie_shaga": {
+            "parameters": {
+                "config_file": "11_Neudachnoe_zavershenie_shaga.json"
+            },
+            "return_codes": {
+                "-1": "11_KONEC",
+                "0": "11_KONEC"
+            },
+            "type": "sync_exec"
+        },
+        "8_Kalkulyator": {
+            "parameters": {
+                "config_file": "8_Kalkulyator.json"
+            },
+            "return_codes": {
+                "-1": "11_Neudachnoe_zavershenie_shaga",
+                "0": "9_Vozvraschaemye_rezultaty_shaga"
+            },
+            "type": "sync_exec"
+        },
+        "9_Vozvraschaemye_rezultaty_shaga": {
+            "parameters": {
+                "config_file": "9_Vozvraschaemye_rezultaty_shaga.json"
+            },
+            "return_codes": {
+                "-1": "11_Neudachnoe_zavershenie_shaga",
+                "0": "10_Uspeshnoe_zavershenie_shaga"
+            },
+            "type": "sync_exec"
+        }
+    },
+    "version": "unknown"
+}

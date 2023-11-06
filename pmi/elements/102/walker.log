@@ -1,0 +1,11 @@
+2023-11-03 17:03:50,472 [INFO] Текущая версия интерпретатора Python : 3.7.5
+2023-11-03 17:03:50,473 [INFO] Текущий каталог проекта : C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\EXAMPLES\LOGOS-MIP\Projects\pmi\elements\102
+2023-11-03 17:03:50,473 [INFO] Имя файла сценария : C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\EXAMPLES\LOGOS-MIP\Projects\pmi\elements\102\walker_data\walker.json
+2023-11-03 17:03:50,473 [INFO] Запуск процесса обработки сценария ...
+2023-11-03 17:03:50,473 [INFO] Текущая версия сценария : 1.0.0
+2023-11-03 17:03:50,473 [INFO] Описание сценария : 
+2023-11-03 17:03:50,474 [INFO] Точка входа в сценарий : 1_Vyzov_surrogatnoy_modeli
+2023-11-03 17:03:50,480 [INFO] 		Запуск процесса python "C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\LOGOS-MIP\walker_modules\use_surrogate_model\main.py" "C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\EXAMPLES\LOGOS-MIP\Projects\pmi\elements\102\walker_data\1_Vyzov_surrogatnoy_modeli.json" : идентификатор процесса 10304 : номер шага 1_Vyzov_surrogatnoy_modeli
+2023-11-03 17:03:55,538 [INFO] 		Процесс python "C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\LOGOS-MIP\walker_modules\use_surrogate_model\main.py" "C:\Users\vadya\VNIIEF\LOGOS-5.3.22.805\EXAMPLES\LOGOS-MIP\Projects\pmi\elements\102\walker_data\1_Vyzov_surrogatnoy_modeli.json" завершил свою работу : идентификатор процесса 10304 : код возврата 0
+2023-11-03 17:03:55,539 [INFO] Переход на шаг :  2_KONEC
+2023-11-03 17:03:55,539 [INFO] Обработчик сценария завершил свою работу со статусом нормальное завершение (success) : общее время выполнения сценария 5.07 секунд

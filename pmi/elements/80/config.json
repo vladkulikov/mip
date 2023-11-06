@@ -1,0 +1,45 @@
+{
+    "surrogate": {
+        "surrogate_method": "KrigingSampler",
+        "KrigingSampler": {
+            "max_iteration": 2,
+            "current_iteration": 1,
+            "out_file_path": "C:/Users/vadya/VNIIEF/LOGOS-5.3.22.805/EXAMPLES/LOGOS-MIP/Projects/pmi/elements/80/AtoMData.csv",
+            "data_file_path": "C:/Users/vadya/VNIIEF/LOGOS-5.3.22.805/EXAMPLES/LOGOS-MIP/Projects/pmi/elements/80/MtoAData.csv",
+            "archive_path": "C:/Users/vadya/VNIIEF/LOGOS-5.3.22.805/EXAMPLES/LOGOS-MIP/Projects/pmi/elements/80/kriging_model.zip",
+            "model": {
+                "x_dim": 1,
+                "y_dim": 1,
+                "x_name": [
+                    "x_1"
+                ],
+                "y_name": [
+                    "res"
+                ],
+                "x_bounds": [
+                    [
+                        -1,
+                        1
+                    ]
+                ]
+            },
+            "count_start_points": 10,
+            "count_request_points": 1,
+            "count_of_grid_nodes": 1000,
+            "min_distance_between_points": 0.01,
+            "sparsity_weight": 1,
+            "distanceX_weight": 1,
+            "deltaF_weight": 1,
+            "min_error": 0.001,
+            "sampling_method": "latin",
+            "surrogate_type": "rbf",
+            "x_limits": [
+                {
+                    "name": "x_1",
+                    "min": -1,
+                    "max": 1
+                }
+            ]
+        }
+    }
+}

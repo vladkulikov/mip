@@ -1,0 +1,11 @@
+{
+    "external": {
+        "module_name": "step_result_accumulator",
+        "scenario_name": "5_Sohranenie_rezultatov_shagov"
+    },
+    "internal": {
+        "y_value_names": [
+            "res"
+        ]
+    }
+}

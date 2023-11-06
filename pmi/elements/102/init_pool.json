@@ -1,0 +1,15 @@
+{
+    "current_project": "pmi",
+    "environ": {
+        "CUSTOMER_NAME": "company_name",
+        "LICADDR": "localhost:8888"
+    },
+    "local_project_root": "C:/Users/vadya/VNIIEF/LOGOS-5.3.22.805/EXAMPLES/LOGOS-MIP/Projects",
+    "python_path": "C:/Users/vadya/VNIIEF/LOGOS-5.3.22.805/LOGOS-MIP/integrator/python37",
+    "scheme_tags": {
+        "calculation": "primary",
+        "level": "base",
+        "type": "any"
+    },
+    "walker_path": "C:/Users/vadya/VNIIEF/LOGOS-5.3.22.805/LOGOS-MIP/walker"
+}

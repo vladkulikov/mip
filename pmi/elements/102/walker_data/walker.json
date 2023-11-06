@@ -1,0 +1,21 @@
+{
+    "description": "",
+    "entry_point": "1_Vyzov_surrogatnoy_modeli",
+    "step_list": {
+        "1_Vyzov_surrogatnoy_modeli": {
+            "parameters": {
+                "config_file": "1_Vyzov_surrogatnoy_modeli.json"
+            },
+            "return_codes": {
+                "-1": "2_KONEC",
+                "0": "2_KONEC",
+                "1": "2_KONEC"
+            },
+            "type": "sync_exec"
+        },
+        "2_KONEC": {
+            "type": "stop"
+        }
+    },
+    "version": "1.0.0"
+}

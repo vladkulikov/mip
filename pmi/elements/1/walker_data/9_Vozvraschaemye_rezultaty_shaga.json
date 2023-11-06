@@ -1,0 +1,12 @@
+{
+    "external": {
+        "module_name": "step_result_returner",
+        "scenario_name": "9_Vozvraschaemye_rezultaty_shaga"
+    },
+    "internal": {
+        "multivariant": false,
+        "y_value_types": {
+            "res": "objective"
+        }
+    }
+}

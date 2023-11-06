@@ -1,0 +1,23 @@
+{
+    "external": {
+        "module_name": "universal_optimizer",
+        "scenario_name": "2_Metod_BasinHopping"
+    },
+    "internal": {
+        "accuracy_x": 0.01,
+        "accuracy_y": 0.01,
+        "adapter_path": "C:\\Users\\vadya\\VNIIEF\\LOGOS-5.3.22.805\\LOGOS-MIP\\walker_utils\\approximaiton-py\\src",
+        "count_crit": 1,
+        "count_ineff": 20,
+        "count_lim": 0,
+        "delay": 3,
+        "interval": 2,
+        "max_count": 100,
+        "method": "BasinHopping",
+        "method_local": "SLSQP",
+        "sampling_method": "latin",
+        "step_size": 0.1,
+        "tunnel_name": "zzz",
+        "type": "optim63"
+    }
+}

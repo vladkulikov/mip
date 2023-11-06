@@ -1,0 +1,10 @@
+{
+    "external": {
+        "module_name": "execute",
+        "scenario_name": "7_Zapusk_komandy"
+    },
+    "internal": {
+        "command": "",
+        "params": ""
+    }
+}

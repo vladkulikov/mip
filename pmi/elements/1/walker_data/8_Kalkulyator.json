@@ -1,0 +1,11 @@
+{
+    "external": {
+        "module_name": "calculator",
+        "scenario_name": "8_Kalkulyator"
+    },
+    "internal": {
+        "equations": [
+            "y.res = x.x_1+x.x_2"
+        ]
+    }
+}

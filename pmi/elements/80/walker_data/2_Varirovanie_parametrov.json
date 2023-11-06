@@ -1,0 +1,9 @@
+{
+    "external": {
+        "module_name": "variator",
+        "scenario_name": "2_Varirovanie_parametrov"
+    },
+    "internal": {
+        "method": "product"
+    }
+}

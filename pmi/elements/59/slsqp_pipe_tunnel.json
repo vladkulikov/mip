@@ -1,0 +1,11 @@
+{
+    "direct": {
+        "receiver": "\\\\.\\pipe\\slsqp.28e6bafa-7c97-4ad3-b042-d60fd696929e",
+        "sender": "\\\\.\\pipe\\slsqp.d418c953-898b-4371-9213-16f1093c742c"
+    },
+    "family": "AF_PIPE",
+    "reverse": {
+        "receiver": "\\\\.\\pipe\\slsqp.64857489-c57a-46e6-b9b2-43c2e1f84676",
+        "sender": "\\\\.\\pipe\\slsqp.387e6151-ccfd-4180-aa55-cc7907a81e99"
+    }
+}
